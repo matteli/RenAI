@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="color-scheme" content="dark light" />
+</head>
+
+<body>
+  <p>Pour utiliser RenAI, il est nécessaire de disposer d'une clé pour accéder à l'API de Gemini (un compte Google est
+    nécessaire).
+    <a href="https://aistudio.google.com/app/apikey">Aller ici</a>, cliquer sur le bouton "Créer une clé API" et
+    copier la clé. Coller la clé ci-dessous.
+  </p>
+  <form id="optForm">
+    <label for="cle">Clé API Gemini : </label>
+    <input type="text" size="40" id="cle" required />
+  </form>
+  <p><label for="prompt" form="optForm">Le prompt envoyé à Gemini est modifiable :</label><br />
+    <textarea rows="4" cols="50" id="prompt" name="prompt" form="optForm"></textarea>
+  </p>
+  <p><b>Ne pas oublier de sauvegarder.</b></p>
+  <button type="submit" form="optForm" style="width: 100px;">Sauvegarder</button>
+  <script src="options.js">
+  </script>
+</body>
+
+</html>
