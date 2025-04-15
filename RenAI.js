@@ -35,7 +35,7 @@ function createRenAIButton() {
   var img = document.createElement("img");
   img.id = "RenAIStamp";
   img.setAttribute("src", browser.runtime.getURL("icons/stamp-12.png"));
-  img.setAttribute("alt", "Tamponne RenAI !")
+  img.setAttribute("alt", "Tamponne RenAI !!")
   img.addEventListener("click", writeApp, false);
   return img;
 }
