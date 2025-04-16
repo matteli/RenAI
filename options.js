@@ -12,6 +12,5 @@ async function restoreOptions() {
   if (typeof res.prompt !== 'undefined') document.querySelector("#prompt").value = res.prompt;
   else document.querySelector("#prompt").value = "Rédige une appréciation sur un ton neutre de 20 à 30 mots qui résume la liste des appréciations suivantes.";
 }
-console.log("1");
 document.addEventListener('DOMContentLoaded', restoreOptions);
 document.querySelector("form").addEventListener("submit", saveOptions);
