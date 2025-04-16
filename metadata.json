@@ -1,13 +1,23 @@
 {
-  "name": "RenAI",
+  "name": {
+    "fr": "RenAI",
+    "en-US": "RenAI"
+  },
   "summary": {
-    "fr": "Tamponne RenAI !!"
+    "fr": "Tamponne RenAI !!",
+    "en-US": "Stamp RenAI !!"
   },
   "version": {
     "license": "MIT"
   },
-  "categories": "others",
+  "categories": {
+    "firefox": [
+      "other"
+    ]
+  },
   "contributions_url": "https://github.com/sponsors/matteli",
   "requires_payment": false,
-  "homepage": "https://github.com/matteli/RenAI"
+  "homepage": {
+    "en-US": "https://github.com/matteli/RenAI"
+  }
 }
