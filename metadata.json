@@ -1,4 +1,8 @@
 {
+  "name": "RenAI",
+  "summary": {
+    "fr": "Tamponne RenAI !!"
+  },
   "version": {
     "license": "MIT"
   },
