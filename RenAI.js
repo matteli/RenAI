@@ -5,7 +5,7 @@ const writeApp = async function () {
     for (let i = 0; i < apps.children.length; i++) {
       if (apps.children[i].id.includes("GInterface.Instances[2].Instances[1]_23_")) {
         const app = apps.children[i].firstChild.firstChild.firstChild.textContent;
-        const sanitizedApp = app.replace(/[^a-zA-Z0-9\s.,;!?]/g, '').trim();
+        const sanitizedApp = app.replace(/[^a-zA-ZÀ-ÖØ-öø-ÿ\s.,;!?]/g, '').trim();
         if (sanitizedApp.length > 1) {
           prompt += sanitizedApp;
           prompt += "\n"
