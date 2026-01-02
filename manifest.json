@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "RenAI",
   "author": "Matthieu Nué",
-  "version": "25.0.1",
+  "version": "25.0.2",
   "description": "Tamponne RenAI !!",
   "icons": {
     "48": "icons/stamp-48.png",
