@@ -24,7 +24,6 @@ const writeApp = async function () {
     },
   });
   const json = await res.json();
-  console.log(json);
   const response = json["candidates"][0]["content"]["parts"][0]["text"]
   console.log(response);
   if (tApp = document.getElementById('GInterface.Instances[2].Instances[2].Instances[3].Instances[1]_Edition')) {
