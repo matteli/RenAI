@@ -14,7 +14,7 @@ const writeApp = async function () {
     }
   }
   console.log(prompt);
-  const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-001:generateContent?key=" + loc.cle
+  const url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + loc.cle
   const body = '{"contents": [{"parts":[{"text": "' + prompt + '"}]}]}';
   const res = await fetch(url, {
     method: "POST",
@@ -24,6 +24,7 @@ const writeApp = async function () {
     },
   });
   const json = await res.json();
+  console.log(json);
   const response = json["candidates"][0]["content"]["parts"][0]["text"]
   console.log(response);
   if (tApp = document.getElementById('GInterface.Instances[2].Instances[2].Instances[3].Instances[1]_Edition')) {
